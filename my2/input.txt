@@ -1,0 +1,21 @@
+# activities with name and duration
+activity t1 2
+activity t2 2
+activity t3 2
+activity t4 2
+activity t5 6
+activity t6 4
+
+# binary constraints
+constraint t2 starts t1
+constraint t3 after t2
+constraint t4 ends t3
+constraint t5 same-day t6
+
+# hard domain constraints
+domain t5 starts-after 11am
+domain t6 on mon
+
+# soft domain constraints
+domain t4 around 3pm 20
+domain t6 around 5pm 10

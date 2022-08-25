@@ -1,0 +1,11 @@
+# activities with name and duration
+activity lecture 3
+activity tutorial 1
+# binary constraints
+constraint lecture before tutorial
+constraint lecture same-day tutorial
+# hard domain constraints
+domain lecture on mon
+domain lecture starts-before 1pm
+domain lecture starts-after 1pm
+domain tutorial around 3pm 10

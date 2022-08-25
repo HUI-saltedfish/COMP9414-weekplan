@@ -1,0 +1,5 @@
+# activities with name and duration
+activity t1 2
+
+# soft domain constraints
+domain t1 around 3pm 20
